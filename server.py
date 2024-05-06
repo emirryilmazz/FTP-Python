@@ -10,6 +10,6 @@ authorizer.add_anonymous("anonim", perm="elradfmw")
 handler = FTPHandler
 handler.authorizer = authorizer
 
-server = FTPServer(("127.0.0.1", 1028), handler)
+server = FTPServer(("127.0.0.1", 1026), handler)
 server.serve_forever()
 
